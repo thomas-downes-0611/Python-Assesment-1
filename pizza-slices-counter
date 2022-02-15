@@ -1,0 +1,4 @@
+pizza_Start = int(input("please enter how many pizza slices you started with: "))
+pizza_Eaten = int(input("please enter how many pizza slices you have eaten: "))
+pizza_End = pizza_Start - pizza_Eaten
+print("You have", pizza_End, "pizza slices left")
