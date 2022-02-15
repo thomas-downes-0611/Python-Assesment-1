@@ -1,0 +1,4 @@
+diners = int(input("please enter the number of diners present: "))
+bill = float(input("please enter how much the bill total costs: "))
+total = bill / diners
+print("each diner has to pay", "£",(round(total,2)) )
